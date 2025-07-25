@@ -4,7 +4,7 @@ This project demonstrates the use of a U-Net deep learning model to extract agri
   📍 Accurate cropland detection from 1960s imagery
   🕰️ Retrospective land use mapping
   🌾 Monitoring long-term agricultural changes
-
+  
 🧾 Project Overview:
 | Parameter         | Description                                          |
 | ----------------- | ---------------------------------------------------- |
@@ -38,7 +38,11 @@ This project demonstrates the use of a U-Net deep learning model to extract agri
   🧪 Inference:
        The full image is split into overlapping patches using a sliding window.
        Patches are predicted individually and merged to reconstruct the full binary mask.
-    
+
+  ✅ Best Model Saved at Epoch 500 with
+       IoU: 0.9746
+       F1-Score, Precision, Recall: High and consistent across test data
+
   Final outputs:
     GeoTIFF: Binary segmentation mask of agriculture
     SHP: Extracted agriculture polygons as vector shapefile
